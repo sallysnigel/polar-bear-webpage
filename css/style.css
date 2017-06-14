@@ -1,0 +1,109 @@
+.storbild {
+	display: block; 
+	margin: 0 auto; 
+	width: 700px;
+}
+
+body {
+	background-color: green; 
+}
+
+
+
+a {
+	text-decoration: none; 
+    color: black;
+    font-family: sans-serif;
+    font-size:20px;
+}
+.header {
+ 	position:relative !important;     
+    float:left !important; 
+    width: 450px !important ;
+    height: 60px !important; 
+    border: 3px solid; 
+    background-color: purple;
+    padding: 30px 0px 50px 0px;
+    text-align:center;  
+    font-weight:bold; 
+    display: inline-block;
+    list-style: none;
+
+
+ }
+ h1 {
+ 	text-align: center; 
+ 	color: black;
+ 	font-size: 70px; 
+ 	padding-top: 100px;
+ }
+
+ h2 {
+ 	text-align: center; 
+ 	color: black;
+ 	font-size: 36px; 
+ 	padding-top: 20px;
+ 	padding-bottom: 30px; 
+ }
+
+ .ingress {
+ 	position: relative;
+ 	padding: 20px 100px 20px 100px; 
+ 	color: black;
+    font-family: sans-serif;
+    font-size:20px; 
+    font-weight: bold;
+
+ }
+
+ .text { 
+ 	position: relative;
+ 	padding: 10px 100px 10px 100px; 
+ 	color: black;
+    font-family: sans-serif;
+    font-size:16px; 
+
+  }
+
+ .video {
+ 	position: relative;
+ 	left:400px; 
+
+
+
+ }
+#bilen { 
+ 	display: block; 
+	margin-left: 100px; 
+	width: 200px;
+
+  }
+  #biffen { 
+ 	display: block; 
+	margin-left: 350px;  
+	margin-top: -200px;
+	width: 200px;
+
+  }
+  #bostaden { 
+ 	display: block; 
+	margin-left: 600px;  
+	margin-top: -200px; 
+	width: 200px;
+
+  }
+  #börsen { 
+ 	display: block; 
+	margin-left: 850px;  
+	margin-top: -200px; 
+	width: 200px;
+
+  }
+  #butiken { 
+ 	display: block; 
+	margin-left: 1100px;  
+	margin-top: -200px; 
+	width: 200px;
+
+  }
+

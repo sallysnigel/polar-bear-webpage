@@ -1,0 +1,58 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+    
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Min titel</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+
+    <!-- I header finns allt som är sidans toppdel där rubrik och menu ofta finns -->
+    <header>
+        <div><a href="index.html" class="header">Startsida</a></div>
+
+        <div><a href="menyval1.html" class="header"> Fakta om isbjörnar </a></div>
+
+        <div><a href="menyval3.html" class="header"> Vad kan vi göra? </a></div>
+
+        <h1> Isbjörnen och klimatet </h1>
+    </header>
+
+    <!-- I main finns huvudsakliga innehållet, exempelvis blogginlägg eller topplistor -->
+    <main>
+        <p class="ingress"> Isbjörnen är väl anpassad för sitt liv på Arktis packis, nära land och öar. Här lever de tillsammans med djur som vikaresäl, fjällräv, narval, vitval och miljoner flyttfåglar. Det allt varmare klimatet med minskande havsis och snötäcke är dock ett stort hot mot isbjörnen.</p>
+
+        <img src="http://www.wwf.se/source.php?id=1631759&image_constraints=571x381" class="storbild">
+
+        <p class="text">Hot
+Isbjörnarna har inga fiender förutom människan som jagat dem hårt under lång tid. Det största hotet idag, när jakten är reglerad, är den globala temperaturhöjningen och illegal jakt. På grund av växthusgaser i atmosfären smälter den arktiska havsisen tidigare varje år vilket ger isbjörnarna kortare tid att jaga och bygga upp fettreserverna inför sommaren.
+ 
+Dessutom har vinterisen börjat frysa till 3-4 veckor senare än normalt på många ställen. Det, innebär att strandade isbjörnar inte kommer ut som vanligt på havsisen för att jaga säl och fylla på fettdepåerna.  Amerikanska forskare har beräknat att 1/3 av väldens isbjörnar kan vara borta år 2050 på grund av att havsisarna sommartid smälter bort i stora områden i Arktis, som Svalbard, Sibirien och Alaska. Läs om Expedition Isbjörn i Svalbard.
+
+Andra hot är gifter och bekämpningsmedel som förs från söder till Arktis i norr genom vindar och havsströmmar. Vissa av dessa kemikalier är långlivade organiska föreningar som samlas upp i den arktiska näringskedjan. När de når toppredatorn, isbjörnen, har koncentrationen nått en alarmerande hög nivå. När isbjörnarna svälter finns det stor risk att miljögifterna kommer ut i kroppen och försvagar immunförsvaret. Tyvärr förs miljögifterna över från mamman till ungarna via dimjölken.
+  </p>
+    </main>
+</body>
+</html>
