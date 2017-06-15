@@ -1,0 +1,54 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+    
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Min titel</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+
+    <!-- I header finns allt som är sidans toppdel där rubrik och menu ofta finns -->
+    <header>
+        <ul>
+            <li> <a href="index.html">Startsida </a></li>
+            <li> <a href="menyval1.html">Fakta om isbjörnar </a></li>
+            <li> <a href="menyval2.html">Isbjörnen och klimatet </a></li>
+            <li> <a href="menyval3.html"> Vad kan du göra? </a></li>
+        </ul>
+
+        <h1>Fakta om isbjörnar</h1>
+
+    </header>
+
+    <!-- I main finns huvudsakliga innehållet, exempelvis blogginlägg eller topplistor -->
+    <main>
+        <p class="text">Isbjörnen är väl anpassad för sitt liv på Arktis packis, nära land och öar. Här lever de tillsammans med djur som vikaresäl, fjällräv, narval, vitval och miljoner flyttfåglar. Det allt varmare klimatet med minskande havsis och snötäcke är dock ett stort hot mot isbjörnen.</p>
+        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/nFH2Qtl3OR8" frameborder="0" allowfullscreen class="scratch"></iframe>
+      
+  
+    </main>
+</body>
+</html>
